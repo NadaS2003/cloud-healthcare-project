@@ -31,7 +31,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Brick\\Math\\": "src/"
+                    "Brick//Math//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -94,7 +94,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Carbon\\Doctrine\\": "src/Carbon/Doctrine/"
+                    "Carbon//Doctrine//": "src/Carbon/Doctrine/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -167,7 +167,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Dflydev\\DotAccessData\\": "src/"
+                    "Dflydev//DotAccessData//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -238,7 +238,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
+                    "Doctrine//Inflector//": "lib/Doctrine/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -328,7 +328,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine\\Common\\Lexer\\": "src"
+                    "Doctrine//Common//Lexer//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -412,7 +412,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Cron\\": "src/Cron/"
+                    "Cron//": "src/Cron/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -477,7 +477,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Egulias\\EmailValidator\\": "src"
+                    "Egulias//EmailValidator//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -541,7 +541,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Fruitcake\\Cors\\": "src/"
+                    "Fruitcake//Cors//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -605,7 +605,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "GrahamCampbell\\ResultType\\": "src/"
+                    "GrahamCampbell//ResultType//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -693,7 +693,7 @@
                     "src/functions_include.php"
                 ],
                 "psr-4": {
-                    "GuzzleHttp\\": "src/"
+                    "GuzzleHttp//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -799,7 +799,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "GuzzleHttp\\Promise\\": "src/"
+                    "GuzzleHttp//Promise//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -893,7 +893,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "GuzzleHttp\\Psr7\\": "src/"
+                    "GuzzleHttp//Psr7//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1000,7 +1000,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "GuzzleHttp\\UriTemplate\\": "src"
+                    "GuzzleHttp//UriTemplate//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1192,7 +1192,7 @@
                 "ext-apcu": "Required to use the APC cache driver.",
                 "ext-fileinfo": "Required to use the Filesystem class.",
                 "ext-ftp": "Required to use the Flysystem FTP driver.",
-                "ext-gd": "Required to use Illuminate\\Http\\Testing\\FileFactory::image().",
+                "ext-gd": "Required to use Illuminate//Http//Testing//FileFactory::image().",
                 "ext-memcached": "Required to use the memcache cache driver.",
                 "ext-pcntl": "Required to use all features of the queue worker and console signal trapping.",
                 "ext-pdo": "Required to use all database features.",
@@ -1239,8 +1239,8 @@
                     "src/Illuminate/Support/helpers.php"
                 ],
                 "psr-4": {
-                    "Illuminate\\": "src/Illuminate/",
-                    "Illuminate\\Support\\": [
+                    "Illuminate//": "src/Illuminate/",
+                    "Illuminate//Support//": [
                         "src/Illuminate/Macroable/",
                         "src/Illuminate/Collections/",
                         "src/Illuminate/Conditionable/"
@@ -1314,7 +1314,7 @@
                     "src/helpers.php"
                 ],
                 "psr-4": {
-                    "Laravel\\Prompts\\": "src/"
+                    "Laravel//Prompts//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1360,7 +1360,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Laravel\\SerializableClosure\\": "src/"
+                    "Laravel//SerializableClosure//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1423,13 +1423,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Laravel\\Tinker\\TinkerServiceProvider"
+                        "Laravel//Tinker//TinkerServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Laravel\\Tinker\\": "src/"
+                    "Laravel//Tinker//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1508,7 +1508,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\CommonMark\\": "src"
+                    "League//CommonMark//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1596,7 +1596,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Config\\": "src"
+                    "League//Config//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1694,7 +1694,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\": "src"
+                    "League//Flysystem//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1750,7 +1750,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "League\\Flysystem\\Local\\": ""
+                    "League//Flysystem//Local//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1802,7 +1802,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "League\\MimeTypeDetection\\": "src"
+                    "League//MimeTypeDetection//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1871,7 +1871,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Uri\\": ""
+                    "League//Uri//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1957,7 +1957,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "League\\Uri\\": ""
+                    "League//Uri//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2032,7 +2032,7 @@
             "type": "library",
             "autoload": {
                 "psr-0": {
-                    "Maatwebsite\\Excel\\": "src/"
+                    "Maatwebsite//Excel//": "src/"
                 },
                 "classmap": [
                     "src/Maatwebsite/Excel",
@@ -2100,7 +2100,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "ZipStream\\": "src/"
+                    "ZipStream//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2168,7 +2168,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Complex\\": "classes/src/"
+                    "Complex//": "classes/src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2223,7 +2223,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Matrix\\": "classes/src/"
+                    "Matrix//": "classes/src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2300,14 +2300,14 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "MongoDB\\Laravel\\MongoDBServiceProvider",
-                        "MongoDB\\Laravel\\MongoDBBusServiceProvider"
+                        "MongoDB//Laravel//MongoDBServiceProvider",
+                        "MongoDB//Laravel//MongoDBBusServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "MongoDB\\Laravel\\": "src/"
+                    "MongoDB//Laravel//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2395,7 +2395,7 @@
                     "src/functions.php"
                 ],
                 "psr-4": {
-                    "MongoDB\\": "src/"
+                    "MongoDB//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2496,7 +2496,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Monolog\\": "src/Monolog"
+                    "Monolog//": "src/Monolog"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2578,7 +2578,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Carbon\\Laravel\\ServiceProvider"
+                        "Carbon//Laravel//ServiceProvider"
                     ]
                 },
                 "phpstan": {
@@ -2593,7 +2593,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Carbon\\": "src/Carbon/"
+                    "Carbon//": "src/Carbon/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2732,9 +2732,9 @@
                 "ext-gd": "to use Image",
                 "ext-iconv": "to use Strings::webalize(), toAscii(), chr() and reverse()",
                 "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
-                "ext-json": "to use Nette\\Utils\\Json",
+                "ext-json": "to use Nette//Utils//Json",
                 "ext-mbstring": "to use Strings::lower() etc...",
-                "ext-tokenizer": "to use Nette\\Utils\\Reflection::getUseStatements()"
+                "ext-tokenizer": "to use Nette//Utils//Reflection::getUseStatements()"
             },
             "type": "library",
             "extra": {
@@ -2822,7 +2822,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "PhpParser\\": "lib/PhpParser"
+                    "PhpParser//": "lib/PhpParser"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2878,7 +2878,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Termwind\\Laravel\\TermwindServiceProvider"
+                        "Termwind//Laravel//TermwindServiceProvider"
                     ]
                 },
                 "branch-alias": {
@@ -2890,7 +2890,7 @@
                     "src/Functions.php"
                 ],
                 "psr-4": {
-                    "Termwind\\": "src/"
+                    "Termwind//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3053,7 +3053,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PhpOffice\\PhpSpreadsheet\\": "src/PhpSpreadsheet"
+                    "PhpOffice//PhpSpreadsheet//": "src/PhpSpreadsheet"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3131,7 +3131,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "PhpOption\\": "src/PhpOption/"
+                    "PhpOption//": "src/PhpOption/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3193,7 +3193,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Psr\\Clock\\": "src/"
+                    "Psr//Clock//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3246,7 +3246,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Container\\": "src/"
+                    "Psr//Container//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3299,7 +3299,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\EventDispatcher\\": "src/"
+                    "Psr//EventDispatcher//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3350,7 +3350,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Client\\": "src/"
+                    "Psr//Http//Client//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3402,7 +3402,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
+                    "Psr//Http//Message//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3456,7 +3456,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Http\\Message\\": "src/"
+                    "Psr//Http//Message//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3509,7 +3509,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\Log\\": "src"
+                    "Psr//Log//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3559,7 +3559,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Psr\\SimpleCache\\": "src/"
+                    "Psr//SimpleCache//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3636,7 +3636,7 @@
                     "src/functions.php"
                 ],
                 "psr-4": {
-                    "Psy\\": "src/"
+                    "Psy//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3758,7 +3758,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Ramsey\\Collection\\": "src/"
+                    "Ramsey//Collection//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3847,7 +3847,7 @@
                 "ext-gmp": "Enables faster math with arbitrary-precision integers using GMP.",
                 "ext-uuid": "Enables the use of PeclUuidTimeGenerator and PeclUuidRandomGenerator.",
                 "paragonie/random-lib": "Provides RandomLib for use with the RandomLibAdapter",
-                "ramsey/uuid-doctrine": "Allows the use of Ramsey\\Uuid\\Uuid as Doctrine field type."
+                "ramsey/uuid-doctrine": "Allows the use of Ramsey//Uuid//Uuid as Doctrine field type."
             },
             "type": "library",
             "extra": {
@@ -3860,7 +3860,7 @@
                     "src/functions.php"
                 ],
                 "psr-4": {
-                    "Ramsey\\Uuid\\": "src/"
+                    "Ramsey//Uuid//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3920,7 +3920,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "SendGrid\\": "lib/"
+                    "SendGrid//": "lib/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -3986,11 +3986,11 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "SendGrid\\Mail\\": "lib/mail/",
-                    "SendGrid\\Stats\\": "lib/stats/",
-                    "SendGrid\\Helper\\": "lib/helper/",
-                    "SendGrid\\Contacts\\": "lib/contacts/",
-                    "SendGrid\\EventWebhook\\": "lib/eventwebhook/"
+                    "SendGrid//Mail//": "lib/mail/",
+                    "SendGrid//Stats//": "lib/stats/",
+                    "SendGrid//Helper//": "lib/helper/",
+                    "SendGrid//Contacts//": "lib/contacts/",
+                    "SendGrid//EventWebhook//": "lib/eventwebhook/"
                 },
                 "classmap": [
                     "lib/BaseSendGridClientInterface.php",
@@ -4040,7 +4040,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Spatie\\DbDumper\\": "src"
+                    "Spatie//DbDumper//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4131,7 +4131,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Spatie\\Backup\\BackupServiceProvider"
+                        "Spatie//Backup//BackupServiceProvider"
                     ]
                 }
             },
@@ -4140,7 +4140,7 @@
                     "src/Helpers/functions.php"
                 ],
                 "psr-4": {
-                    "Spatie\\Backup\\": "src"
+                    "Spatie//Backup//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4207,7 +4207,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Spatie\\LaravelPackageTools\\": "src"
+                    "Spatie//LaravelPackageTools//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4272,16 +4272,16 @@
             "extra": {
                 "laravel": {
                     "aliases": {
-                        "Signal": "Spatie\\SignalAwareCommand\\Facades\\Signal"
+                        "Signal": "Spatie//SignalAwareCommand//Facades//Signal"
                     },
                     "providers": [
-                        "Spatie\\SignalAwareCommand\\SignalAwareCommandServiceProvider"
+                        "Spatie//SignalAwareCommand//SignalAwareCommandServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Spatie\\SignalAwareCommand\\": "src"
+                    "Spatie//SignalAwareCommand//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4337,7 +4337,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Spatie\\TemporaryDirectory\\": "src"
+                    "Spatie//TemporaryDirectory//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4446,7 +4446,7 @@
                     "Resources/now.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Component\\Clock\\": ""
+                    "Symfony//Component//Clock//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4538,7 +4538,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Console\\": ""
+                    "Symfony//Component//Console//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4605,7 +4605,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\CssSelector\\": ""
+                    "Symfony//Component//CssSelector//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4751,7 +4751,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\ErrorHandler\\": ""
+                    "Symfony//Component//ErrorHandler//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4831,7 +4831,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\EventDispatcher\\": ""
+                    "Symfony//Component//EventDispatcher//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -4902,7 +4902,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Contracts\\EventDispatcher\\": ""
+                    "Symfony//Contracts//EventDispatcher//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -4971,7 +4971,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Finder\\": ""
+                    "Symfony//Component//Finder//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -5049,7 +5049,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\HttpFoundation\\": ""
+                    "Symfony//Component//HttpFoundation//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -5163,7 +5163,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\HttpKernel\\": ""
+                    "Symfony//Component//HttpKernel//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -5243,7 +5243,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Mailer\\": ""
+                    "Symfony//Component//Mailer//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -5323,7 +5323,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Mime\\": ""
+                    "Symfony//Component//Mime//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -5403,7 +5403,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Ctype\\": ""
+                    "Symfony//Polyfill//Ctype//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5479,7 +5479,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Grapheme\\": ""
+                    "Symfony//Polyfill//Intl//Grapheme//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5558,7 +5558,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Idn\\": ""
+                    "Symfony//Polyfill//Intl//Idn//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5640,7 +5640,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Intl\\Normalizer\\": ""
+                    "Symfony//Polyfill//Intl//Normalizer//": ""
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -5724,7 +5724,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Mbstring\\": ""
+                    "Symfony//Polyfill//Mbstring//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -5798,7 +5798,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Php80\\": ""
+                    "Symfony//Polyfill//Php80//": ""
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -5878,7 +5878,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Php81\\": ""
+                    "Symfony//Polyfill//Php81//": ""
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -5954,7 +5954,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Php83\\": ""
+                    "Symfony//Polyfill//Php83//": ""
                 },
                 "classmap": [
                     "Resources/stubs"
@@ -6036,7 +6036,7 @@
                     "bootstrap.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Polyfill\\Uuid\\": ""
+                    "Symfony//Polyfill//Uuid//": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6100,7 +6100,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Process\\": ""
+                    "Symfony//Component//Process//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6175,7 +6175,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Routing\\": ""
+                    "Symfony//Component//Routing//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6256,7 +6256,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Contracts\\Service\\": ""
+                    "Symfony//Contracts//Service//": ""
                 },
                 "exclude-from-classmap": [
                     "/Test/"
@@ -6343,7 +6343,7 @@
                     "Resources/functions.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Component\\String\\": ""
+                    "Symfony//Component//String//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6446,7 +6446,7 @@
                     "Resources/functions.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Component\\Translation\\": ""
+                    "Symfony//Component//Translation//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6516,7 +6516,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Contracts\\Translation\\": ""
+                    "Symfony//Contracts//Translation//": ""
                 },
                 "exclude-from-classmap": [
                     "/Test/"
@@ -6589,7 +6589,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Uid\\": ""
+                    "Symfony//Component//Uid//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6677,7 +6677,7 @@
                     "Resources/functions/dump.php"
                 ],
                 "psr-4": {
-                    "Symfony\\Component\\VarDumper\\": ""
+                    "Symfony//Component//VarDumper//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
@@ -6755,7 +6755,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "TijsVerkoyen\\CssToInlineStyles\\": "src"
+                    "TijsVerkoyen//CssToInlineStyles//": "src"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6820,7 +6820,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Dotenv\\": "src/"
+                    "Dotenv//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6887,7 +6887,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "voku\\": "src/voku/"
+                    "voku//": "src/voku/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -6968,7 +6968,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Webmozart\\Assert\\": "src/"
+                    "Webmozart//Assert//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7025,16 +7025,16 @@
                 "symfony/phpunit-bridge": "^5.4.16"
             },
             "suggest": {
-                "doctrine/orm": "Required to use Faker\\ORM\\Doctrine",
-                "ext-curl": "Required by Faker\\Provider\\Image to download images.",
-                "ext-dom": "Required by Faker\\Provider\\HtmlLorem for generating random HTML.",
-                "ext-iconv": "Required by Faker\\Provider\\ru_RU\\Text::realText() for generating real Russian text.",
+                "doctrine/orm": "Required to use Faker//ORM//Doctrine",
+                "ext-curl": "Required by Faker//Provider//Image to download images.",
+                "ext-dom": "Required by Faker//Provider//HtmlLorem for generating random HTML.",
+                "ext-iconv": "Required by Faker//Provider//ru_RU//Text::realText() for generating real Russian text.",
                 "ext-mbstring": "Required for multibyte Unicode string functionality."
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Faker\\": "src/Faker/"
+                    "Faker//": "src/Faker/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7093,7 +7093,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Whoops\\": "src/Whoops/"
+                    "Whoops//": "src/Whoops/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7211,13 +7211,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Laravel\\Breeze\\BreezeServiceProvider"
+                        "Laravel//Breeze//BreezeServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Laravel\\Breeze\\": "src/"
+                    "Laravel//Breeze//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7279,7 +7279,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Laravel\\Pail\\PailServiceProvider"
+                        "Laravel//Pail//PailServiceProvider"
                     ]
                 },
                 "branch-alias": {
@@ -7288,7 +7288,7 @@
             },
             "autoload": {
                 "psr-4": {
-                    "Laravel\\Pail\\": "src/"
+                    "Laravel//Pail//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7355,9 +7355,9 @@
             "type": "project",
             "autoload": {
                 "psr-4": {
-                    "App\\": "app/",
-                    "Database\\Seeders\\": "database/seeders/",
-                    "Database\\Factories\\": "database/factories/"
+                    "App//": "app/",
+                    "Database//Seeders//": "database/seeders/",
+                    "Database//Factories//": "database/factories/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7418,13 +7418,13 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "Laravel\\Sail\\SailServiceProvider"
+                        "Laravel//Sail//SailServiceProvider"
                     ]
                 }
             },
             "autoload": {
                 "psr-4": {
-                    "Laravel\\Sail\\": "src/"
+                    "Laravel//Sail//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7481,7 +7481,7 @@
                     "library/Mockery.php"
                 ],
                 "psr-4": {
-                    "Mockery\\": "library/Mockery"
+                    "Mockery//": "library/Mockery"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7564,7 +7564,7 @@
                     "src/DeepCopy/deep_copy.php"
                 ],
                 "psr-4": {
-                    "DeepCopy\\": "src/DeepCopy/"
+                    "DeepCopy//": "src/DeepCopy/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -7630,7 +7630,7 @@
             "extra": {
                 "laravel": {
                     "providers": [
-                        "NunoMaduro\\Collision\\Adapters\\Laravel\\CollisionServiceProvider"
+                        "NunoMaduro//Collision//Adapters//Laravel//CollisionServiceProvider"
                     ]
                 },
                 "branch-alias": {
@@ -7642,7 +7642,7 @@
                     "./src/Adapters/Phpunit/Autoload.php"
                 ],
                 "psr-4": {
-                    "NunoMaduro\\Collision\\": "src/"
+                    "NunoMaduro//Collision//": "src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -9236,7 +9236,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Symfony\\Component\\Yaml\\": ""
+                    "Symfony//Component//Yaml//": ""
                 },
                 "exclude-from-classmap": [
                     "/Tests/"
