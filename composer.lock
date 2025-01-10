@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a73fd16b41261fab84726787595e22ad",
+    "content-hash": "36fa5ee353873beb8e7b829d90eec97f",
     "packages": [
         {
             "name": "brick/math",
@@ -238,7 +238,7 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "Doctrine//Inflector//": "lib/Doctrine/Inflector"
+                    "Doctrine\\Inflector\\": "lib/Doctrine/Inflector"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -1071,7 +1071,7 @@
             "require": {
                 "brick/math": "^0.9.3|^0.10.2|^0.11|^0.12",
                 "composer-runtime-api": "^2.2",
-                "doctrine/inflector": "^2.0.5",
+                "doctrine/inflector": "^2.0.10",
                 "dragonmantank/cron-expression": "^3.4",
                 "egulias/email-validator": "^3.2.1|^4.0",
                 "ext-ctype": "*",
@@ -9338,5 +9338,8 @@
         "ext-mongodb": "*"
     },
     "platform-dev": [],
+    "platform-overrides": {
+        "php": "8.2.4"
+    },
     "plugin-api-version": "2.3.0"
 }
