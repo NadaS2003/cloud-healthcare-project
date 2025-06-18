@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Appointment;
 use App\Models\Invoice;
 use App\Models\Patient;
 use App\Models\User;
@@ -17,6 +18,55 @@ class AppointmentController extends Controller
     {
         $invoices = Invoice::with('patient')->paginate(10);
         return view('admin.invoices.index', compact('invoices'));
+    }
+
+    public function showAppointments()
+    {
+        $doctor = Auth::user()->doctor;
+
+        // جلب المواعيد المرتبطة بالطبيب الحالي
+        $appointments = Appointment::where('doctor_id', $doctor->id)
+            ->with('patient') // لتحميل بيانات المريض
+            ->orderBy('appointment_date', 'asc')
+            ->get();
+
+        return view('doctor.appointments.index', compact('appointments'));
+    }
+
+    /**
+     * تأكيد الموعد
+     */
+    public function confirm($id)
+    {
+        $appointment = Appointment::findOrFail($id);
+
+        // تحقق أن الموعد يخص الطبيب الحالي
+        if ($appointment->doctor_id != Auth::user()->doctor->id) {
+            return redirect()->route('doctor.appointments.index')->with('error', 'Unauthorized action.');
+        }
+
+        $appointment->status = 'confirmed';
+        $appointment->save();
+
+        return redirect()->route('doctor.appointments.index')->with('success', 'Appointment confirmed successfully.');
+    }
+
+    /**
+     * إلغاء الموعد
+     */
+    public function cancel($id)
+    {
+        $appointment = Appointment::findOrFail($id);
+
+        // تحقق أن الموعد يخص الطبيب الحالي
+        if ($appointment->doctor_id != Auth::user()->doctor->id) {
+            return redirect()->route('doctor.appointments.index')->with('error', 'Unauthorized action.');
+        }
+
+        $appointment->status = 'cancelled';
+        $appointment->save();
+
+        return redirect()->route('doctor.appointments.index')->with('success', 'Appointment cancelled successfully.');
     }
 
 

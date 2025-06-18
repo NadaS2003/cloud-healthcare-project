@@ -60,7 +60,7 @@ Route::get('/patient/view-document/{fileName}', [PatientController::class, 'view
 
 
 Route::middleware('auth')->group(function () {
-    Route::get('/doctor/appointments', [AppointmentController::class, 'index'])->name('doctor.appointments.index');
+    Route::get('/doctor/appointments', [AppointmentController::class, 'showAppointments'])->name('doctor.appointments.index');
     Route::get('/doctor/appointments/{id}/confirm', [AppointmentController::class, 'confirm'])->name('doctor.appointments.confirm');
     Route::get('/doctor/appointments/{id}/cancel', [AppointmentController::class, 'cancel'])->name('doctor.appointments.cancel');
     Route::get('/doctor/patients', [DoctorController::class, 'patient'])->name('doctor.patients.index');

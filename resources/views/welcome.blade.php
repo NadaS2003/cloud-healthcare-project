@@ -1,46 +1,84 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<html lang="en">
+
 <head>
+
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <title>Welcome</title>
+    <title>SB Admin 2 - Login</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.bunny.net">
-    <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <!-- Custom fonts for this template-->
+{{--    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">--}}
+    <link
+        href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+        rel="stylesheet">
 
-    <!-- Styles -->
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <!-- Custom styles for this template-->
+    <link href="{{asset('css/sb-admin-2.min.css')}}" rel="stylesheet">
+
 </head>
-<body class="bg-gradient-to-r from-blue-500 to-indigo-700 text-white font-sans antialiased">
 
-<!-- Navigation Bar -->
-<nav class="p-4 bg-white text-black shadow-md">
-    <div class="container mx-auto flex justify-between items-center">
-        <a href="/" class="text-2xl font-bold">Health Care System</a>
-        <div class="space-x-4">
-            <a href="{{route('login')}}" class="hover:text-blue-500 p-4">Login</a>
-            <a href="{{route('register')}}" class="hover:text-blue-500">Register</a>
+<body>
 
+
+    <!-- Outer Row -->
+
+        <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+
+
+
+             <a class="text-dark font-weight-bolder font-semibold ml-lg-5" style="font-size: x-large; text-decoration-line: none"
+             href="/">Health Care System</a>
+
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto mr-lg-5">
+
+                <!-- Nav Item - Alerts -->
+                <li class="nav-item pt-4">
+                    <a class="text-dark" href="{{route('login')}}" style="font-size: medium; text-decoration-line: none">
+                        Login
+                    </a>
+                </li>
+
+                <!-- Nav Item - Messages -->
+                <li class="nav-item p-4">
+                    <a class="text-dark" href="{{route('register')}}"style="font-size: medium; text-decoration-line: none">
+                       Register
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+
+    <!-- Welcome Section -->
+    <div class="flex items-center justify-center min-h-screen bg-cover bg-center" style="background-color: rgba(255,255,255,0.64);">
+        <div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
+            <img src="{{asset('img/start.jfif')}}">
+            <h1 class="text-4xl md:text-5xl font-semibold mb-4 text-dark">Welcome to MyApp</h1>
+            <p class="text-lg text-dark mb-4">Your go-to platform for all things awesome!</p>
         </div>
     </div>
-</nav>
 
-<!-- Welcome Section -->
-<div class="flex items-center justify-center min-h-screen bg-cover bg-center" style="background-color: rgba(255,255,255,0.64);">
-    <div class="bg-black bg-opacity-50 p-10 rounded-lg text-center">
-        <img src="{{asset('img/start.jfif')}}">
-        <h1 class="text-4xl md:text-5xl font-semibold mb-4 text-black">Welcome to MyApp</h1>
-        <p class="text-lg text-black mb-4">Your go-to platform for all things awesome!</p>
-{{--        <a href="/dashboard" class="bg-blue-600 hover:bg-blue-700 text-black mt-5 py-2 px-6 rounded-lg shadow-lg transition duration-300" style="background-color:  rgba(161,211,231,0.44);">Get Started</a>--}}
-    </div>
-</div>
 
-<!-- Footer -->
-<footer class="bg-black text-white py-4 text-center">
-    <p>&copy; 2024 MyApp. All rights reserved.</p>
-</footer>
+
+{{--<!-- Bootstrap core JavaScript-->--}}
+{{--<script src={{asset('vendor/jquery/jquery.min.js')}}></script>--}}
+{{--<script src={{asset('vendor/bootstrap/js/bootstrap.bundle.min.js')}}></script>--}}
+
+{{--<!-- Core plugin JavaScript-->--}}
+{{--<script src={{asset('vendor/jquery-easing/jquery.easing.min.js')}}></script>--}}
+
+<!-- Custom scripts for all pages-->
+{{--<script src="{{asset('js/sb-admin-2.min.js')}}"></script>--}}
 
 </body>
+
 </html>
+

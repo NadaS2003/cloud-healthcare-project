@@ -11,6 +11,7 @@ use App\Models\User;
 use App\Notifications\UpdateProfileRequest;
 use Illuminate\Http\Request;
 use Illuminate\Support\Carbon;
+use Illuminate\Support\Facades\DB;
 
 class DoctorController extends Controller
 {
@@ -25,9 +26,14 @@ class DoctorController extends Controller
             ->count();
 
         $totalPatients = Patient::count();
-        $followedPatients = Patient::whereHas('appointments', function($query) {
-            $query->havingRaw('COUNT(*) > 1');
-        })->count();
+//        $followedPatients = Patient::whereHas('appointments', function($query) {
+//            $query->havingRaw('COUNT(*) > 1');
+//        })->count();
+        $followedPatients = DB::table('appointments')
+            ->select('patient_id')
+            ->groupBy('patient_id')
+            ->havingRaw('COUNT(*) > 1')
+            ->count();
         return view('doctor.index',compact('notifications','unreadNotifications','advertisement'
             ,'upcomingAppointments','totalPatients','followedPatients'));
     }
@@ -76,6 +82,7 @@ class DoctorController extends Controller
 
 
         $medicalRecords = MedicalRecords::where('patient_id', $id)->get();
+
 
         $medicalRecords = collect($medicalRecords);
 
