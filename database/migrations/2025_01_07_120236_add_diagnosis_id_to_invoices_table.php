@@ -13,7 +13,7 @@ return new class extends Migration
     {
         Schema::table('invoices', function (Blueprint $table) {
             $table->unsignedBigInteger('diagnosis_id')->nullable()->after('patient_id'); // التأكد من أنه بعد patient_id
-            $table->foreign('diagnosis_id')->references('id')->on('diagnoses')->onDelete('set null');
+            $table->foreign('diagnosis_id')->references('id')->on('diagnoses_and_prescriptions')->onDelete('set null');
         });
     }
 

@@ -29,7 +29,7 @@
     <div class="container py-4">
         <div class="card shadow">
             <div class="card-header bg-primary text-white">
-                <h2 class="mb-0">Patient Details</h2>
+                <h2 class="mb-0">Doctor Details</h2>
             </div>
             <div class="card-body">
                 <p><strong>Name:</strong> {{ $doctor->first_name }} {{ $doctor->last_name }}</p>

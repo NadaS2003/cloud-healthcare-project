@@ -39,17 +39,51 @@ class DoctorController extends Controller
     }
 
 
+//    public function patient(Request $request)
+//    {
+//        $search = $request->query('search');
+//        $doctorId = auth()->user()->doctor->id;
+//        $recentPatients = Patient::whereHas('appointments', function ($query) use ($doctorId) {
+//            $query->where('doctor_id', $doctorId);
+//        })
+//            ->withCount(['appointments' => function($query) use ($doctorId) {
+//                $query->where('doctor_id', $doctorId);
+//            }])
+//            ->having('appointments_count', 1)
+//            ->when($search, function ($query, $search) {
+//                $query->where('first_name', 'like', "%$search%")
+//                    ->orWhere('last_name', 'like', "%$search%")
+//                    ->orWhere('email', 'like', "%$search%");
+//            })
+//            ->paginate(10);
+//
+//        $oldPatients = Patient::whereHas('appointments', function ($query) use ($doctorId) {
+//            $query->where('doctor_id', $doctorId);
+//        })
+//            ->withCount(['appointments' => function($query) use ($doctorId) {
+//                $query->where('doctor_id', $doctorId);
+//            }])
+//            ->having('appointments_count', '>', 1)
+//            ->when($search, function ($query, $search) {
+//                $query->where('first_name', 'like', "%$search%")
+//                    ->orWhere('last_name', 'like', "%$search%")
+//                    ->orWhere('email', 'like', "%$search%");
+//            })
+//            ->paginate(10);
+//
+//        return view('doctor.patients.index', compact('recentPatients', 'oldPatients'));
+//    }
+
     public function patient(Request $request)
     {
         $search = $request->query('search');
         $doctorId = auth()->user()->doctor->id;
+
+        // recent patients = exactly 1 appointment
         $recentPatients = Patient::whereHas('appointments', function ($query) use ($doctorId) {
             $query->where('doctor_id', $doctorId);
         })
-            ->withCount(['appointments' => function($query) use ($doctorId) {
-                $query->where('doctor_id', $doctorId);
-            }])
-            ->having('appointments_count', 1)
+            ->has('appointments', '=', 1) // <- بدل having
             ->when($search, function ($query, $search) {
                 $query->where('first_name', 'like', "%$search%")
                     ->orWhere('last_name', 'like', "%$search%")
@@ -57,13 +91,11 @@ class DoctorController extends Controller
             })
             ->paginate(10);
 
+        // old patients = more than 1 appointment
         $oldPatients = Patient::whereHas('appointments', function ($query) use ($doctorId) {
             $query->where('doctor_id', $doctorId);
         })
-            ->withCount(['appointments' => function($query) use ($doctorId) {
-                $query->where('doctor_id', $doctorId);
-            }])
-            ->having('appointments_count', '>', 1)
+            ->has('appointments', '>', 1) // <- بدل having
             ->when($search, function ($query, $search) {
                 $query->where('first_name', 'like', "%$search%")
                     ->orWhere('last_name', 'like', "%$search%")
@@ -73,8 +105,6 @@ class DoctorController extends Controller
 
         return view('doctor.patients.index', compact('recentPatients', 'oldPatients'));
     }
-
-
     public function show($id)
     {
 
