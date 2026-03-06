@@ -1,66 +1,88 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
-
 <p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
+    <img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo">
 </p>
 
-## About Laravel
+<h1 align="center">Healthcare Management System</h1>
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+<p align="center">
+A comprehensive web-based healthcare management system designed to manage medical data and streamline healthcare services. The platform supports multiple user roles including patients, doctors, and administrators, providing an organized environment for managing appointments, patient records, billing, and healthcare operations.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+The system focuses on security, efficiency, and user-friendly interfaces to simplify healthcare data management.
+</p>
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+---
 
-## Learning Laravel
+## 📌 Project Overview
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+Healthcare institutions often require efficient systems to manage patient information, appointments, and medical operations. This system provides a centralized platform that helps healthcare providers organize medical data, improve communication between patients and doctors, and streamline administrative tasks.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+---
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+## 🚀 Key Features
 
-## Laravel Sponsors
+- Multi-role system (Patients, Doctors, Administrators)
+- Patient registration and profile management
+- Appointment scheduling system
+- Notifications and updates
+- Billing and payment management
+- Healthcare analytics and reporting
+- Secure data management
+- User-friendly interface
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛠️ Tech Stack
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- PHP
+- Laravel 11
+- Blade Templating Engine
+- HTML5
+- CSS3
+- Bootstrap
+- JavaScript
+- MySQL / SQLite
+- Mongodb
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📷 Screenshots
 
-## Code of Conduct
+<img width="1921" height="2872" alt="1" src="https://github.com/user-attachments/assets/1dc855b4-80e7-4e65-b105-3d93cedcdcd8" />
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+<img width="1921" height="1023" alt="2" src="https://github.com/user-attachments/assets/b7876ded-0fab-4598-ab13-391dccb1fb6c" />
 
-## Security Vulnerabilities
+<img width="1921" height="920" alt="3" src="https://github.com/user-attachments/assets/4aca0e3e-0008-427b-b1a3-becd2a533020" />
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<img width="1921" height="920" alt="4" src="https://github.com/user-attachments/assets/7e97a253-46c0-4cff-b55c-5b943e7d0e80" />
 
-## License
+<img width="1921" height="1004" alt="5" src="https://github.com/user-attachments/assets/963d28e7-9b47-4ca2-9c37-7f5146c3d1bf" />
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+<img width="1921" height="920" alt="6" src="https://github.com/user-attachments/assets/651a5fff-7e95-4651-ac5f-b101945fe8de" />
+
+<img width="1921" height="921" alt="7" src="https://github.com/user-attachments/assets/a49a924c-88a1-4be9-a2b3-c82eb911f1b5" />
+
+<img width="1921" height="920" alt="8" src="https://github.com/user-attachments/assets/0ff930ec-48ec-425d-9af4-b4319baba4f0" />
+
+<img width="1921" height="920" alt="9" src="https://github.com/user-attachments/assets/7645b0b0-f99d-4701-a613-654639e3a23f" />
+
+<img width="1921" height="969" alt="10" src="https://github.com/user-attachments/assets/2ba44f49-d406-465c-bab6-2d8c338e5dfe" />
+
+<img width="1921" height="920" alt="11" src="https://github.com/user-attachments/assets/1efda8fa-1b90-44f5-80d7-96d0382a3640" />
+
+<img width="1921" height="920" alt="12" src="https://github.com/user-attachments/assets/c4bd3d1a-617a-4e5e-944a-62ae1d2364eb" />
+
+<img width="1921" height="920" alt="13" src="https://github.com/user-attachments/assets/4a991dc2-6df7-4ac2-a06b-99f01e0857a3" />
+
+<img width="1921" height="920" alt="14" src="https://github.com/user-attachments/assets/f91afa63-9966-42ed-969b-6bead8a5e0e0" />
+
+<img width="1921" height="920" alt="15" src="https://github.com/user-attachments/assets/1a880fd8-dda3-4ca7-87e0-22bf0b4a879a" />
+
+<img width="1921" height="920" alt="16" src="https://github.com/user-attachments/assets/59546ddc-689d-45ba-9eaa-3e11f1988d64" />
+
+
+
+
+
+
+
+
